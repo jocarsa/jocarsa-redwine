@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JOCARSA - Inicio</title>
+    <title>JOCARSA - Contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,16 +23,22 @@
         </div>
     </header>
     <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Soluciones Tecnológicas Innovadoras</h1>
-                <p>En JOCARSA, ofrecemos soluciones a medida para empresas, desde software de gestión hasta visualizaciones 3D impactantes. Nuestro equipo de expertos está dedicado a proporcionar productos de alta calidad que satisfacen las necesidades únicas de cada cliente.</p>
-                <div class="hero-buttons">
-                    <a href="software.html" class="btn primary">Explora nuestros servicios</a>
-                    <a href="contacto.html" class="btn secondary">Solicita una reunión</a>
-                </div>
-            </div>
-        </section>
+        <h1>Contacto</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="buttons">
+            <a href="#" class="btn">Solicitar presupuesto de software</a>
+            <a href="#" class="btn">Solicitar presupuesto de animación</a>
+        </div>
+        <p>Teléfono: +34 123 456 789</p>
+        <p>Correo: info@jocarsa.com</p>
     </main>
     <footer>
         <p>&copy; 2023 JOCARSA. Todos los derechos reservados.</p>
